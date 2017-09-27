@@ -34,8 +34,14 @@ Electronics consist of:
 Ok. I've made some researches on aliexpress and figured out that all of this parts is easyly accessible and cost not so much to build this printer localy.
 
 But I was very surprised when saw that 2K LCD without HDMI converter costs just 45 USD. And together their cost is about 120USD.
-So whats wrong with this converter and why it is so expensive.
+So what's wrong with this converter and why it is so expensive?
 
+I do not have an answer yet. But I found 2 chips that convert signals and their cost not greater than 7USD.
 
+Ok. So I had an idea. Why not make an PCB that will control all of peripheral, include LCD. And connect it to wifi network through ESP8266 module. So we can get rid of both expensive raspberry pi and hdmi2mipi boards. 
+
+Some weeks of research show me that MIPI DSI, that commonly used by all modern LCDs is not so complex, but it have physical layer, that non of the low cost MCUs supports. 
+
+Ok but we can adapt 3.3v MCU gpio to MIPI interface logic with external components.
 
 
