@@ -17,7 +17,7 @@ To use this printer you need separate PC. Most optimal solution for this is to u
 So, lets go deeper and figure out what is inside this printer.
 <todo Insert link to ictures>
 
-It have:
+Printer consists of:
 1. Metal base and enclosure.
 2. Actuator (Stepper motor, coupling, leadscrew)
 3. UV Lamp with fan on the bottom
