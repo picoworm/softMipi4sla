@@ -24,7 +24,7 @@ Printer consists of:
 4. Mirrors around UV lamp
 5. 2K LCD Display
 6. Bath with FEP film
-7. Electronics that controls oll of this.
+7. Electronics that controls all of this.
 
 Electronics consist of:
 1. Arduino board to control motor, FAN and UV Lamp
