@@ -31,7 +31,7 @@ Electronics consist of:
 2. HDMI to MIPI converter
 3. Connector adapter for specific LCD
 
-Ok. I've made some researches on aliexpress and figured out that all of this parts is easyly accessible and cost not so much to build this printer localy.
+Ok. I've made some researches on aliexpress and figured out that all of this parts is easily accessible and costs not so much to build this printer localy.
 
 But I was very surprised when saw that 2K LCD without HDMI converter costs just 45 USD. And together their cost is about 120USD.
 So what's wrong with this converter and why it is so expensive?
