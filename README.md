@@ -1,5 +1,7 @@
 # softMipi4sla
 
+27 sep 2017:
+
 The main perpose of this repository is to research on software implementation of mipi
 interface with low cost phy, and make it work.
 
@@ -44,4 +46,14 @@ Some weeks of research show me that MIPI DSI, that commonly used by all modern L
 
 Ok but we can adapt 3.3v MCU gpio to MIPI interface logic with external components.
 
+29 sep 2017
 
+MIPI DSI has next interface:
+
+differential clock (200mv p2p with 200v offset)
+4 data lanes (200mv p2p and 200mv offset in hight speed mode, and 0-1.2v in low power mode)
+
+I think the best solution for this tash is to use low-cost fpga with lvds lanes and 1.2v output pins.
+So now I focused on Altera max 5 fpga 5M40ZE64C5N
+It costs about 1.2USD and supports these format and have enough output lanes to drive Mipi DSI LCD
+It supports RSDS outputs that can drive up to 200mhz frequencies.
